@@ -15,10 +15,8 @@ Yêu cầu iOS 16 trở lên, Swift 6.
 **Package.swift:**
 
 ```swift
-.package(url: "https://github.com/PhungMHieu/PageCurlKit.git", branch: "main")
+.package(url: "https://github.com/PhungMHieu/PageCurlKit.git", from: "1.0.0")
 ```
-
-Khi repo có tag phiên bản, nên ghim theo phiên bản thay cho `branch: "main"`, ví dụ `from: "1.0.0"`.
 
 ## Cách dùng
 
@@ -109,3 +107,7 @@ Nội dung trang được dựng lại mỗi khi `PageCurlView` cập nhật, n�
 - tạo trang khi cần thay vì dựng sẵn mọi trang,
 - phân biệt nhảy trang (có hiệu ứng) với dàn trang lại (không hiệu ứng),
 - hỗ trợ chế độ 2 trang với gáy ở giữa.
+
+## Giấy phép
+
+MIT — xem [LICENSE](LICENSE).
